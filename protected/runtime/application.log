@@ -1,0 +1,1127 @@
+2012/08/17 09:43:19 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:19 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:19 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:19 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (35)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:19 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (35)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:19 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:19 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:19 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:19 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/dvi/tcra/protected/views/site/login.php (4)
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (98)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:19 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/dvi/tcra/protected/views/site/login.php (26)
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (98)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:19 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (98)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "db" application component
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra/protected/models/LoginForm.php (50)
+2012/08/17 09:43:26 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra/protected/models/LoginForm.php (50)
+2012/08/17 09:43:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra/protected/models/LoginForm.php (50)
+2012/08/17 09:43:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra/protected/models/LoginForm.php (50)
+2012/08/17 09:43:26 [trace] [system.db.ar.CActiveRecord] User.find()
+in /var/www/dvi/tcra/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra/protected/models/LoginForm.php (50)
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (94)
+2012/08/17 09:43:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE username=? LIMIT 1
+in /var/www/dvi/tcra/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra/protected/models/LoginForm.php (50)
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (94)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra/protected/models/LoginForm.php (68)
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (94)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra/protected/models/LoginForm.php (68)
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (94)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (35)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (35)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/dvi/tcra/protected/views/layouts/column2.php (1)
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (37)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:26 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/dvi/tcra/protected/controllers/SiteController.php (37)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.web.filters.CFilterChain] Running filter LicenceApplicationController.filteraccessControl()
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.CModule] Loading "db" application component
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:30 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:30 [trace] [system.db.ar.CActiveRecord] User.find()
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+2012/08/17 09:43:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE LOWER(username)=? LIMIT 1
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+2012/08/17 09:43:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+in /var/www/dvi/tcra/protected/components/WebUser.php (24)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.db.CDbCommand] Querying SQL: select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+in /var/www/dvi/tcra/protected/components/WebUser.php (27)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `licence_application`
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (427)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `licence_application`
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (427)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/dvi/tcra/protected/views/licenceApplication/new.php (17)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (454)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `licence_group`
+in /var/www/dvi/tcra/protected/models/LicenceGroup.php (18)
+in /var/www/dvi/tcra/protected/views/licenceApplication/new.php (18)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (454)
+2012/08/17 09:43:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `licence_group`
+in /var/www/dvi/tcra/protected/models/LicenceGroup.php (18)
+in /var/www/dvi/tcra/protected/views/licenceApplication/new.php (18)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (454)
+2012/08/17 09:43:30 [trace] [system.db.ar.CActiveRecord] LicenceGroup.findAll()
+in /var/www/dvi/tcra/protected/views/licenceApplication/new.php (18)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (454)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `licence_group` `t`
+in /var/www/dvi/tcra/protected/views/licenceApplication/new.php (18)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (454)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/dvi/tcra/protected/views/licenceApplication/new.php (32)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (454)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:30 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (454)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.web.filters.CFilterChain] Running filter LicenceApplicationController.filteraccessControl()
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.CModule] Loading "db" application component
+in /var/www/dvi/tcra/protected/models/LicenceCategory.php (23)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (1874)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/dvi/tcra/protected/models/LicenceCategory.php (23)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (1874)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `licence_category`
+in /var/www/dvi/tcra/protected/models/LicenceCategory.php (23)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (1874)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `licence_category`
+in /var/www/dvi/tcra/protected/models/LicenceCategory.php (23)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (1874)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.db.ar.CActiveRecord] LicenceCategory.findAll()
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (1874)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `licence_category` `t` WHERE licence_group_id=1 ORDER BY order_code
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (1874)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.web.filters.CFilterChain] Running filter LicenceApplicationController.filteraccessControl()
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "db" application component
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:36 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:36 [trace] [system.db.ar.CActiveRecord] User.find()
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE LOWER(username)=? LIMIT 1
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+2012/08/17 09:43:36 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+in /var/www/dvi/tcra/protected/components/WebUser.php (24)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+in /var/www/dvi/tcra/protected/components/WebUser.php (27)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `licence_application`
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (427)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `licence_application`
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (427)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.web.filters.CFilterChain] Running filter LicenceApplicationController.filteraccessControl()
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "db" application component
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:36 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in /var/www/dvi/tcra/protected/models/User.php (22)
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+2012/08/17 09:43:36 [trace] [system.db.ar.CActiveRecord] User.find()
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE LOWER(username)=? LIMIT 1
+in /var/www/dvi/tcra/protected/components/WebUser.php (39)
+in /var/www/dvi/tcra/protected/components/WebUser.php (19)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+2012/08/17 09:43:36 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+in /var/www/dvi/tcra/protected/components/WebUser.php (24)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+in /var/www/dvi/tcra/protected/components/WebUser.php (27)
+in /var/www/dvi/tcra/yii-1.1.3/base/CComponent.php(616) : eval()'d code (1)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `licence_application`
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (460)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `licence_application`
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (460)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `application_communication`
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (461)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `application_communication`
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (461)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `receipt`
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (462)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `receipt`
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (462)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.ar.CActiveRecord] lazy loading LicenceApplication.licenceCategory
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (5)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `licence_category`
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (5)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `licence_category`
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (5)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.db.CDbCommand] Querying SQL: SELECT `licenceCategory`.`id` AS `t1_c0`, `licenceCategory`.`name` AS `t1_c1`, `licenceCategory`.`licence_group_id` AS `t1_c2`, `licenceCategory`.`code` AS `t1_c3`, `licenceCategory`.`licence_file` AS `t1_c4`, `licenceCategory`.`certificate_file` AS `t1_c5`, `licenceCategory`.`order_code` AS `t1_c6` FROM `licence_category` `licenceCategory`  WHERE (`licenceCategory`.`id`=:ypl0)
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (5)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (9)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (41)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:36 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (41)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `market_segment`
+in /var/www/dvi/tcra/protected/models/MarketSegment.php (20)
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (171)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+2012/08/17 09:43:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `market_segment`
+in /var/www/dvi/tcra/protected/models/MarketSegment.php (20)
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (171)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+2012/08/17 09:43:37 [trace] [system.db.ar.CActiveRecord] MarketSegment.findAll()
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (171)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `market_segment` `t` WHERE licence_category_id=1 ORDER BY order_code
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (171)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `currency`
+in /var/www/dvi/tcra/protected/models/Currency.php (19)
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (190)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+2012/08/17 09:43:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `currency`
+in /var/www/dvi/tcra/protected/models/Currency.php (19)
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (190)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+2012/08/17 09:43:37 [trace] [system.db.ar.CActiveRecord] Currency.findAll()
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (190)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/17 09:43:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `currency` `t`
+in /var/www/dvi/tcra/protected/views/licenceApplication/applicationCommunication/newCommunication.php (190)
+in /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php (604)
+in /var/www/dvi/tcra/index.php (13)
+2012/08/21 08:39:52 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/21 08:39:57 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/21 08:40:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/21 08:48:45 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/21 08:48:50 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/21 08:50:08 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/21 08:50:15 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/21 08:54:50 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/21 08:54:58 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/21 08:54:58 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/21 08:56:41 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/21 08:56:44 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/21 08:56:52 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/21 08:57:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/21 08:57:20 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/21 08:57:33 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/21 08:57:42 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/21 08:57:59 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/21 08:57:59 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/21 08:58:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/21 08:58:37 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/21 08:58:41 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/21 08:59:01 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/21 08:59:02 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/21 08:59:12 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/21 08:59:15 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/21 08:59:37 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/21 08:59:37 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/21 09:22:50 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='statisticsTelecom'
+2012/08/21 09:24:28 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='statisticsTelecom'
+2012/08/21 09:26:18 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/21 09:26:35 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/21 09:31:15 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='statisticsTelecom'
+2012/08/21 09:47:05 [error] [php] Trying to get property of non-object (/var/www/dvi/tcra/protected/commands/EpicorCommand.php:82)
+Stack trace:
+#0 /var/www/dvi/tcra/yii-1.1.3/base/CApplication.php(135): CConsoleApplication->processRequest()
+#1 /var/www/dvi/tcra/console.php(13): CConsoleApplication->run()
+
+2012/08/21 15:46:44 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='statisticsTelecom'
+2012/08/22 12:09:13 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:09:21 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:09:21 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:10:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:10:30 [error] [exception.CDbException] SQLSTATE[HY000] Unable to connect: Adaptive Server is unavailable or does not exist (severity 9)
+2012/08/22 12:10:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/dvi/tcra/yii-1.1.3/db/CDbConnection.php:275
+Stack trace:
+#0 /var/www/dvi/tcra/yii-1.1.3/db/CDbConnection.php(242): CDbConnection->open()
+#1 /var/www/dvi/tcra/yii-1.1.3/db/CDbConnection.php(221): CDbConnection->setActive(true)
+#2 /var/www/dvi/tcra/yii-1.1.3/base/CModule.php(363): CDbConnection->init()
+#3 /var/www/dvi/tcra/yii-1.1.3/base/CModule.php(86): CModule->getComponent('dbdata')
+#4 /var/www/dvi/tcra/protected/models/ActiveRecordData.php(26): CModule->__get('dbdata')
+#5 /var/www/dvi/tcra/yii-1.1.3/db/ar/CActiveRecord.php(2048): ActiveRecordData->getDbConnection()
+#6 /var/www/dvi/tcra/yii-1.1.3/db/ar/CActiveRecord.php(353): CActiveRecordMetaData->__construct(Object(ActiveRecordData))
+#7 /var/www/dvi/tcra/yii-1.1.3/db/ar/CActiveRecord.php(367): CActiveRecord::model('ActiveRecordDat...')
+#8 /var/www/dvi/tcra/yii-1.1.3/db/ar/CActiveRecord.php(62): CActiveRecord->getMetaData()
+#9 /var/www/dvi/tcra/protected/models/Receipt.php(59): CActiveRecord->__construct()
+#10 /var/www/dvi/tcra/yii-1.1.3/validators/CInlineValidator.php(39): Receipt->checkNumber('num', Array)
+#11 /var/www/dvi/tcra/yii-1.1.3/validators/CValidator.php(178): CInlineValidator->validateAttribute(Object(Receipt), 'num')
+#12 /var/www/dvi/tcra/yii-1.1.3/base/CModel.php(150): CValidator->validate(Object(Receipt), NULL)
+#13 /var/www/dvi/tcra/protected/controllers/LicenceApplicationController.php(489): CModel->validate()
+#14 /var/www/dvi/tcra/yii-1.1.3/web/actions/CInlineAction.php(32): LicenceApplicationController->actionNewCommunication()
+#15 /var/www/dvi/tcra/yii-1.1.3/web/CController.php(300): CInlineAction->run()
+#16 /var/www/dvi/tcra/yii-1.1.3/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#17 /var/www/dvi/tcra/yii-1.1.3/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /var/www/dvi/tcra/yii-1.1.3/web/CController.php(1049): CFilter->filter(Object(CFilterChain))
+#19 /var/www/dvi/tcra/yii-1.1.3/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/dvi/tcra/yii-1.1.3/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/dvi/tcra/yii-1.1.3/web/CController.php(283): CFilterChain->run()
+#22 /var/www/dvi/tcra/yii-1.1.3/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/dvi/tcra/yii-1.1.3/web/CWebApplication.php(324): CController->run('newCommunicatio...')
+#24 /var/www/dvi/tcra/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController('licenceApplicat...')
+#25 /var/www/dvi/tcra/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#26 /var/www/dvi/tcra/index.php(13): CApplication->run()
+#27 {main} REQUEST_URI=/dvi/tcra/index.php/licenceApplication/newCommunication
+2012/08/22 12:10:35 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:21:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 12:21:33 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:21:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:21:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:23:50 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceView'
+2012/08/22 12:24:26 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:24:32 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:24:33 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:40:04 [error] [php] Trying to get property of non-object (/var/www/dvi/tcra/protected/commands/EpicorCommand.php:82)
+Stack trace:
+#0 /var/www/dvi/tcra/yii-1.1.3/base/CApplication.php(135): CConsoleApplication->processRequest()
+#1 /var/www/dvi/tcra/console.php(13): CConsoleApplication->run()
+
+2012/08/22 12:40:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:45:09 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:45:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:45:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:46:37 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:46:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 12:46:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 12:46:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 12:47:26 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 12:47:37 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 12:47:44 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 12:48:02 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 12:48:02 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 12:49:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/22 12:49:23 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/22 12:49:51 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 12:49:59 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 12:50:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 12:52:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:52:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:52:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:54:01 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 12:54:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 12:54:12 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 12:54:35 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 12:59:29 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 12:59:36 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:01:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:01:33 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:01:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 13:01:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 13:02:04 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:02:13 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 13:03:59 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 13:03:59 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:04:06 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:04:27 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:04:33 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:04:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:04:54 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:05:19 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 13:05:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 13:06:28 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 13:06:29 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/22 13:06:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:06:43 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:09:32 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:09:33 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:09:46 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:13:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:13:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:13:10 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:14:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:14:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:14:11 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:14:23 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationPrepare'
+2012/08/22 13:14:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationPrepare'
+2012/08/22 13:18:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:18:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:18:31 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:19:34 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:19:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:19:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:19:46 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:19:59 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:19:59 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:26:56 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:27:04 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:27:04 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:39:05 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:39:20 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:39:20 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:40:10 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:40:18 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:40:18 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:41:23 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:41:35 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:41:35 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:42:32 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:42:37 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:42:37 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:44:55 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:45:02 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:45:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 13:51:54 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationPrepare'
+2012/08/22 13:55:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/22 13:56:04 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:56:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:56:55 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:57:05 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 13:59:11 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:22 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:35 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:36 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:42 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:46 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:46 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:46 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:46 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:46 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='roles'
+2012/08/22 13:59:58 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='groups'
+2012/08/22 14:00:08 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='groups'
+2012/08/22 14:00:15 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='groups'
+2012/08/22 14:00:19 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='groups'
+2012/08/22 14:01:49 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 14:05:37 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:05:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:06:12 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:06:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:06:35 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:06:39 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:07:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:07:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:07:17 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:07:21 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:07:45 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:07:57 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:08:15 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:08:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:08:52 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:09:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:09:09 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:09:19 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:09:29 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:09:34 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:09:42 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:09:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:10:10 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:10:25 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:10:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:10:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:10:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:11:06 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:11:25 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:11:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:11:49 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:11:51 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:12:05 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:12:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:12:23 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:12:34 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:12:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:12:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:13:02 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:13:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:13:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:13:41 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:13:57 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:14:06 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:14:19 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:14:49 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:14:55 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:15:14 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:15:21 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:15:41 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:15:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:15:51 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 14:15:54 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='complaint'
+2012/08/22 18:34:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/22 18:34:08 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 18:34:12 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 18:34:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 18:35:21 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 22:34:11 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 22:34:17 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/22 22:34:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationPrepare'
+2012/08/22 22:34:42 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationPrepare'
+2012/08/23 13:28:42 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/23 13:28:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/23 13:29:23 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/23 13:29:29 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/23 13:39:51 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/23 13:40:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/23 13:44:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationPrepare'
+2012/08/23 13:44:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationPrepare'
+2012/08/23 14:10:04 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/24 07:32:57 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 07:33:06 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 07:33:06 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 07:45:18 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 07:49:22 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 07:49:28 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 07:49:28 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:02:56 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:03:04 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:03:04 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:33:28 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:34:57 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:35:05 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:35:05 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:35:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:35:28 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:35:28 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:35:41 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:35:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:35:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:37:42 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:38:58 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:38:58 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:50:54 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:51:12 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:51:13 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:51:55 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:52:04 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 08:52:04 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 09:18:18 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 09:18:50 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 09:18:50 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 09:26:54 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 09:27:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 09:29:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 11:57:59 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 11:58:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 11:58:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 11:59:45 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 11:59:45 [error] [exception.CDbException] SQLSTATE[HY000] Unable to connect: Adaptive Server is unavailable or does not exist (severity 9)
+2012/08/24 11:59:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/dvi/tcra_mick/yii-1.1.3/db/CDbConnection.php:275
+Stack trace:
+#0 /var/www/dvi/tcra_mick/yii-1.1.3/db/CDbConnection.php(242): CDbConnection->open()
+#1 /var/www/dvi/tcra_mick/yii-1.1.3/db/CDbConnection.php(221): CDbConnection->setActive(true)
+#2 /var/www/dvi/tcra_mick/yii-1.1.3/base/CModule.php(363): CDbConnection->init()
+#3 /var/www/dvi/tcra_mick/yii-1.1.3/base/CModule.php(86): CModule->getComponent('dbdata')
+#4 /var/www/dvi/tcra_mick/protected/models/ActiveRecordData.php(26): CModule->__get('dbdata')
+#5 /var/www/dvi/tcra_mick/yii-1.1.3/db/ar/CActiveRecord.php(2048): ActiveRecordData->getDbConnection()
+#6 /var/www/dvi/tcra_mick/yii-1.1.3/db/ar/CActiveRecord.php(353): CActiveRecordMetaData->__construct(Object(ActiveRecordData))
+#7 /var/www/dvi/tcra_mick/yii-1.1.3/db/ar/CActiveRecord.php(367): CActiveRecord::model('ActiveRecordDat...')
+#8 /var/www/dvi/tcra_mick/yii-1.1.3/db/ar/CActiveRecord.php(62): CActiveRecord->getMetaData()
+#9 /var/www/dvi/tcra_mick/protected/models/Receipt.php(59): CActiveRecord->__construct()
+#10 /var/www/dvi/tcra_mick/yii-1.1.3/validators/CInlineValidator.php(39): Receipt->checkNumber('num', Array)
+#11 /var/www/dvi/tcra_mick/yii-1.1.3/validators/CValidator.php(178): CInlineValidator->validateAttribute(Object(Receipt), 'num')
+#12 /var/www/dvi/tcra_mick/yii-1.1.3/base/CModel.php(150): CValidator->validate(Object(Receipt), NULL)
+#13 /var/www/dvi/tcra_mick/protected/controllers/LicenceApplicationController.php(489): CModel->validate()
+#14 /var/www/dvi/tcra_mick/yii-1.1.3/web/actions/CInlineAction.php(32): LicenceApplicationController->actionNewCommunication()
+#15 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(300): CInlineAction->run()
+#16 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#17 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(1049): CFilter->filter(Object(CFilterChain))
+#19 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(283): CFilterChain->run()
+#22 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(324): CController->run('newCommunicatio...')
+#24 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController('licenceApplicat...')
+#25 /var/www/dvi/tcra_mick/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#26 /var/www/dvi/tcra_mick/index.php(13): CApplication->run()
+#27 {main} REQUEST_URI=/dvi/tcra_mick/index.php/licenceApplication/newCommunication
+2012/08/24 12:01:25 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 12:01:29 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/24 12:01:34 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/24 12:01:45 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/24 12:01:49 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/24 12:21:44 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/24 12:22:01 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/24 12:22:08 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/24 12:22:18 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/24 12:22:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/24 12:22:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/24 12:22:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/24 12:23:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/24 12:23:06 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/24 12:23:26 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/24 12:23:27 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/24 12:23:37 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/24 12:23:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/24 12:55:19 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 12:55:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 12:55:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:08:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:09:12 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:12:02 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:12:18 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:12:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:13:10 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:13:10 [error] [exception.CException] exception 'CException' with message 'Property "CAttributeCollection.datePickerForwwwmat" is not defined.' in /var/www/dvi/tcra_mick/yii-1.1.3/base/CComponent.php:131
+Stack trace:
+#0 /var/www/dvi/tcra_mick/yii-1.1.3/collections/CAttributeCollection.php(52): CComponent->__get('datePickerForww...')
+#1 /var/www/dvi/tcra_mick/protected/views/licenceApplication/applicationCourier/newCourier.php(68): CAttributeCollection->__get('datePickerForww...')
+#2 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(119): require('/var/www/dvi/tc...')
+#3 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(88): CBaseController->renderInternal('/var/www/dvi/tc...', Array, true)
+#4 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): CBaseController->renderFile('/var/www/dvi/tc...', Array, true)
+#5 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(739): CController->renderPartial('applicationCour...', Array, true)
+#6 /var/www/dvi/tcra_mick/protected/controllers/LicenceApplicationController.php(1238): CController->render('applicationCour...', Array)
+#7 /var/www/dvi/tcra_mick/yii-1.1.3/web/actions/CInlineAction.php(32): LicenceApplicationController->actionNewCourier()
+#8 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(300): CInlineAction->run()
+#9 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#10 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilter.php(41): CFilterChain->run()
+#11 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(1049): CFilter->filter(Object(CFilterChain))
+#12 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#14 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(283): CFilterChain->run()
+#15 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(324): CController->run('newCourier')
+#17 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController('licenceApplicat...')
+#18 /var/www/dvi/tcra_mick/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#19 /var/www/dvi/tcra_mick/index.php(13): CApplication->run()
+#20 {main} REQUEST_URI=/dvi/tcra_mick/index.php/licenceApplication/newCourier/category/10
+2012/08/24 13:13:36 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:14:13 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:15:41 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:15:50 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:15:51 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:21:08 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:24:45 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 13:24:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:39:13 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:39:20 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:39:20 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:39:37 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:39:43 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:39:44 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:40:15 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:40:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:40:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:40:58 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:41:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 22:41:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 23:03:20 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 23:03:34 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 23:03:43 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/24 23:03:43 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:01:42 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:05:17 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:09:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:09:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:09:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:23:06 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:23:14 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:23:14 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:25:45 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:28:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:28:11 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:28:12 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 00:59:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:00:09 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:00:09 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:05:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:05:32 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:09:22 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:09:29 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:09:29 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:10:11 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:10:49 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:11:36 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:11:36 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:14:58 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:18:31 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:18:31 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:18:36 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:22:42 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:26:55 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceView'
+2012/08/25 01:26:57 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceView'
+2012/08/25 01:27:31 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceView'
+2012/08/25 01:27:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceView'
+2012/08/25 01:28:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:28:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:28:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:40:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 01:40:54 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:41:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:41:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:42:25 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 01:42:29 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:42:59 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:43:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 01:49:42 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:50:34 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 01:50:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:52:14 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:52:28 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:53:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:53:39 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:53:39 [error] [php] Undefined variable: la (/var/www/dvi/tcra_mick/protected/views/licenceApplication/applicationCommunication/detailCommunication.php:6)
+Stack trace:
+#0 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#1 /var/www/dvi/tcra_mick/protected/views/licenceApplication/detail.php(3): LicenceApplicationController->renderPartial()
+#2 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(119): require()
+#3 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(88): LicenceApplicationController->renderInternal()
+#4 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#5 /var/www/dvi/tcra_mick/protected/views/licenceApplication/view.php(10): LicenceApplicationController->renderPartial()
+#6 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(119): require()
+#7 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(88): LicenceApplicationController->renderInternal()
+#8 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#9 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(739): LicenceApplicationController->renderPartial()
+#10 /var/www/dvi/tcra_mick/protected/controllers/LicenceApplicationController.php(108): LicenceApplicationController->render()
+#11 /var/www/dvi/tcra_mick/yii-1.1.3/web/actions/CInlineAction.php(32): LicenceApplicationController->actionView()
+#12 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(300): CInlineAction->run()
+#13 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(129): LicenceApplicationController->runAction()
+#14 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(1049): CAccessControlFilter->filter()
+#16 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CInlineFilter.php(59): LicenceApplicationController->filterAccessControl()
+#17 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(126): CInlineFilter->filter()
+#18 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(283): CFilterChain->run()
+#19 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(257): LicenceApplicationController->runActionWithFilters()
+#20 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(324): LicenceApplicationController->run()
+#21 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController()
+#22 /var/www/dvi/tcra_mick/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /var/www/dvi/tcra_mick/index.php(13): CWebApplication->run()
+REQUEST_URI=/dvi/tcra_mick/index.php/licenceApplication/view/id/4
+2012/08/25 01:53:46 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:53:46 [error] [php] Undefined variable: la (/var/www/dvi/tcra_mick/protected/views/licenceApplication/applicationCommunication/detailCommunication.php:6)
+Stack trace:
+#0 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#1 /var/www/dvi/tcra_mick/protected/views/licenceApplication/detail.php(3): LicenceApplicationController->renderPartial()
+#2 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(119): require()
+#3 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(88): LicenceApplicationController->renderInternal()
+#4 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#5 /var/www/dvi/tcra_mick/protected/views/licenceApplication/view.php(10): LicenceApplicationController->renderPartial()
+#6 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(119): require()
+#7 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(88): LicenceApplicationController->renderInternal()
+#8 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#9 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(739): LicenceApplicationController->renderPartial()
+#10 /var/www/dvi/tcra_mick/protected/controllers/LicenceApplicationController.php(108): LicenceApplicationController->render()
+#11 /var/www/dvi/tcra_mick/yii-1.1.3/web/actions/CInlineAction.php(32): LicenceApplicationController->actionView()
+#12 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(300): CInlineAction->run()
+#13 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(129): LicenceApplicationController->runAction()
+#14 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(1049): CAccessControlFilter->filter()
+#16 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CInlineFilter.php(59): LicenceApplicationController->filterAccessControl()
+#17 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(126): CInlineFilter->filter()
+#18 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(283): CFilterChain->run()
+#19 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(257): LicenceApplicationController->runActionWithFilters()
+#20 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(324): LicenceApplicationController->run()
+#21 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController()
+#22 /var/www/dvi/tcra_mick/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /var/www/dvi/tcra_mick/index.php(13): CWebApplication->run()
+REQUEST_URI=/dvi/tcra_mick/index.php/licenceApplication/view/id/3
+2012/08/25 01:53:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:53:53 [error] [php] Undefined variable: la (/var/www/dvi/tcra_mick/protected/views/licenceApplication/applicationCommunication/detailCommunication.php:6)
+Stack trace:
+#0 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#1 /var/www/dvi/tcra_mick/protected/views/licenceApplication/detail.php(3): LicenceApplicationController->renderPartial()
+#2 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(119): require()
+#3 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(88): LicenceApplicationController->renderInternal()
+#4 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#5 /var/www/dvi/tcra_mick/protected/views/licenceApplication/view.php(10): LicenceApplicationController->renderPartial()
+#6 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(119): require()
+#7 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(88): LicenceApplicationController->renderInternal()
+#8 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#9 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(739): LicenceApplicationController->renderPartial()
+#10 /var/www/dvi/tcra_mick/protected/controllers/LicenceApplicationController.php(108): LicenceApplicationController->render()
+#11 /var/www/dvi/tcra_mick/yii-1.1.3/web/actions/CInlineAction.php(32): LicenceApplicationController->actionView()
+#12 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(300): CInlineAction->run()
+#13 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(129): LicenceApplicationController->runAction()
+#14 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(1049): CAccessControlFilter->filter()
+#16 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CInlineFilter.php(59): LicenceApplicationController->filterAccessControl()
+#17 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(126): CInlineFilter->filter()
+#18 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(283): CFilterChain->run()
+#19 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(257): LicenceApplicationController->runActionWithFilters()
+#20 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(324): LicenceApplicationController->run()
+#21 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController()
+#22 /var/www/dvi/tcra_mick/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /var/www/dvi/tcra_mick/index.php(13): CWebApplication->run()
+REQUEST_URI=/dvi/tcra_mick/index.php/licenceApplication/view/id/10
+2012/08/25 01:54:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:54:11 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:54:11 [error] [php] Undefined variable: la (/var/www/dvi/tcra_mick/protected/views/licenceApplication/applicationCommunication/detailCommunication.php:6)
+Stack trace:
+#0 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#1 /var/www/dvi/tcra_mick/protected/views/licenceApplication/detail.php(3): LicenceApplicationController->renderPartial()
+#2 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(119): require()
+#3 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(88): LicenceApplicationController->renderInternal()
+#4 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#5 /var/www/dvi/tcra_mick/protected/views/licenceApplication/view.php(10): LicenceApplicationController->renderPartial()
+#6 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(119): require()
+#7 /var/www/dvi/tcra_mick/yii-1.1.3/web/CBaseController.php(88): LicenceApplicationController->renderInternal()
+#8 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#9 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(739): LicenceApplicationController->renderPartial()
+#10 /var/www/dvi/tcra_mick/protected/controllers/LicenceApplicationController.php(108): LicenceApplicationController->render()
+#11 /var/www/dvi/tcra_mick/yii-1.1.3/web/actions/CInlineAction.php(32): LicenceApplicationController->actionView()
+#12 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(300): CInlineAction->run()
+#13 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(129): LicenceApplicationController->runAction()
+#14 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(1049): CAccessControlFilter->filter()
+#16 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CInlineFilter.php(59): LicenceApplicationController->filterAccessControl()
+#17 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(126): CInlineFilter->filter()
+#18 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(283): CFilterChain->run()
+#19 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(257): LicenceApplicationController->runActionWithFilters()
+#20 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(324): LicenceApplicationController->run()
+#21 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController()
+#22 /var/www/dvi/tcra_mick/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /var/www/dvi/tcra_mick/index.php(13): CWebApplication->run()
+REQUEST_URI=/dvi/tcra_mick/index.php/licenceApplication/view/id/9
+2012/08/25 01:54:50 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 01:59:06 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:00:57 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 02:08:25 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 02:08:30 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 02:08:31 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 02:09:45 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 02:09:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:09:58 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:10:06 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 02:11:18 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 02:13:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 02:15:20 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 02:16:50 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:28:29 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:28:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 02:28:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 02:28:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 02:30:08 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 02:30:09 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:30:23 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:35:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:35:10 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dvi/tcra_mick/index.php/licenceApplication/editCommunication/id/38/id/38".' in /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php:328
+Stack trace:
+#0 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController('dvi/tcra_mick/i...')
+#1 /var/www/dvi/tcra_mick/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /var/www/dvi/tcra_mick/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/dvi/tcra_mick/index.php/dvi/tcra_mick/index.php/licenceApplication/editCommunication/id/38/id/38
+2012/08/25 02:35:51 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:35:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dvi/tcra_mick/index.php/licenceApplication/editCommunication/id/38".' in /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php:328
+Stack trace:
+#0 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController('dvi/tcra_mick/i...')
+#1 /var/www/dvi/tcra_mick/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /var/www/dvi/tcra_mick/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/dvi/tcra_mick/index.php/dvi/tcra_mick/index.php/licenceApplication/editCommunication/id/38
+2012/08/25 02:36:25 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:39:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:39:40 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:39:49 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:39:50 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:40:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 02:40:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:40:51 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:41:08 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:41:43 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:41:44 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:42:10 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:42:58 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:43:02 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:49:54 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:49:54 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 02:50:05 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:50:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:50:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:50:57 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:51:02 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 02:51:43 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 02:51:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 02:52:11 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 02:56:33 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:03:13 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:03:59 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:03:59 [error] [php] Undefined index: LicenceApplicatio (/var/www/dvi/tcra_mick/protected/controllers/LicenceApplicationController.php:2139)
+Stack trace:
+#0 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(129): LicenceApplicationController->runAction()
+#1 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(1049): CAccessControlFilter->filter()
+#3 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CInlineFilter.php(59): LicenceApplicationController->filterAccessControl()
+#4 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(126): CInlineFilter->filter()
+#5 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(283): CFilterChain->run()
+#6 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(257): LicenceApplicationController->runActionWithFilters()
+#7 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(324): LicenceApplicationController->run()
+#8 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController()
+#9 /var/www/dvi/tcra_mick/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#10 /var/www/dvi/tcra_mick/index.php(13): CWebApplication->run()
+REQUEST_URI=/dvi/tcra_mick/index.php/licenceApplication/checkResources/id/38
+2012/08/25 03:04:16 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:04:17 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:04:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:08:38 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:08:42 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:09:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:09:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:09:43 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:10:09 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:10:12 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:11:13 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:11:13 [error] [php] Undefined variable: a (/var/www/dvi/tcra_mick/protected/views/licenceApplication/view.php:9)
+Stack trace:
+#0 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(798): LicenceApplicationController->renderFile()
+#1 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(739): LicenceApplicationController->renderPartial()
+#2 /var/www/dvi/tcra_mick/protected/controllers/LicenceApplicationController.php(108): LicenceApplicationController->render()
+#3 /var/www/dvi/tcra_mick/yii-1.1.3/web/actions/CInlineAction.php(32): LicenceApplicationController->actionView()
+#4 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(300): CInlineAction->run()
+#5 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(129): LicenceApplicationController->runAction()
+#6 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(1049): CAccessControlFilter->filter()
+#8 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CInlineFilter.php(59): LicenceApplicationController->filterAccessControl()
+#9 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(126): CInlineFilter->filter()
+#10 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(283): CFilterChain->run()
+#11 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(257): LicenceApplicationController->runActionWithFilters()
+#12 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(324): LicenceApplicationController->run()
+#13 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController()
+#14 /var/www/dvi/tcra_mick/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#15 /var/www/dvi/tcra_mick/index.php(13): CWebApplication->run()
+REQUEST_URI=/dvi/tcra_mick/index.php/licenceApplication/view/id/39
+2012/08/25 03:11:29 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:11:39 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:12:28 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:13:10 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:14:34 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:15:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:15:44 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:15:50 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:16:45 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:16:45 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:16:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/25 03:16:58 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/25 03:18:35 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/25 03:18:36 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/25 03:18:42 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/25 03:19:21 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/25 03:19:32 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/25 03:19:47 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/25 03:26:56 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/25 03:27:18 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationApproval'
+2012/08/25 03:27:35 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:27:44 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:27:57 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:28:22 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:32:33 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:33:10 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceView'
+2012/08/25 03:33:20 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceView'
+2012/08/25 03:33:22 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceView'
+2012/08/25 03:33:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceView'
+2012/08/25 03:34:12 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceView'
+2012/08/25 03:41:48 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:41:51 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/25 03:43:00 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:43:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:43:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:48:43 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:49:06 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationPrepare'
+2012/08/25 03:49:36 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:49:41 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:49:45 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'
+2012/08/25 03:49:56 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEdit'
+2012/08/25 03:50:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:51:07 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:52:17 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:52:17 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 03:53:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:15:32 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:16:26 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:16:26 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:16:33 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:16:41 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:16:41 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:16:49 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:16:57 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:16:57 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:17:03 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:17:17 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:17:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:17:24 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/25 08:17:29 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/26 11:55:15 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/26 11:58:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/26 11:58:53 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/26 12:18:39 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/26 12:20:11 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/26 12:20:26 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationNew'
+2012/08/26 12:20:31 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/26 12:20:36 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationView'
+2012/08/26 12:20:44 [info] [application] select count(*) as c from roles, user_group,group_role  where user_group.group_id=group_role.group_id and group_role.role_id=roles.id and  user_group.user_id=1 and roles.role='licenceApplicationEvaluation'

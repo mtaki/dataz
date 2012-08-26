@@ -1,0 +1,48 @@
+<?php
+
+return array(
+	/*
+	'sample1'=>array(
+		'application_date' => '',
+		'operator_id' => '',
+		'start_date' => '',
+		'signatory_name' => '',
+		'signatory_title' => '',
+		'sign_date' => '',
+		'sign_location' => '',
+		'status' => '',
+		'application_type_id' => '',
+		'other_info' => '',
+		'remarks' => '',
+		'fee_type_id' => '',
+		'effective_date' => '',
+		'num' => '',
+		'duration' => '',
+		'is_licence' => '',
+		'issue_date' => '',
+		'dispatch_name' => '',
+		'dispatch_title' => '',
+	),
+	'sample2'=>array(
+		'application_date' => '',
+		'operator_id' => '',
+		'start_date' => '',
+		'signatory_name' => '',
+		'signatory_title' => '',
+		'sign_date' => '',
+		'sign_location' => '',
+		'status' => '',
+		'application_type_id' => '',
+		'other_info' => '',
+		'remarks' => '',
+		'fee_type_id' => '',
+		'effective_date' => '',
+		'num' => '',
+		'duration' => '',
+		'is_licence' => '',
+		'issue_date' => '',
+		'dispatch_name' => '',
+		'dispatch_title' => '',
+	),
+	*/
+);

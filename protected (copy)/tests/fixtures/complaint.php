@@ -1,0 +1,48 @@
+<?php
+
+return array(
+	/*
+	'sample1'=>array(
+		'complainant_id' => '',
+		'respondent_id' => '',
+		'description' => '',
+		'relief' => '',
+		'verification_comp_signatory' => '',
+		'verification_comp_date' => '',
+		'verification_appl_date' => '',
+		'verification_tcra_signatory' => '',
+		'verification_tcra_date' => '',
+		'verification_resp_signatory' => '',
+		'verification_resp_date' => '',
+		'complaint_types' => '',
+		'status' => '',
+		'stage' => '',
+		'relief_type_id' => '',
+		'responce' => '',
+		'verification' => '',
+		'region_id' => '',
+		'sector_id' => '',
+	),
+	'sample2'=>array(
+		'complainant_id' => '',
+		'respondent_id' => '',
+		'description' => '',
+		'relief' => '',
+		'verification_comp_signatory' => '',
+		'verification_comp_date' => '',
+		'verification_appl_date' => '',
+		'verification_tcra_signatory' => '',
+		'verification_tcra_date' => '',
+		'verification_resp_signatory' => '',
+		'verification_resp_date' => '',
+		'complaint_types' => '',
+		'status' => '',
+		'stage' => '',
+		'relief_type_id' => '',
+		'responce' => '',
+		'verification' => '',
+		'region_id' => '',
+		'sector_id' => '',
+	),
+	*/
+);

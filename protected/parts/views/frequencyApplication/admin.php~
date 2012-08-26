@@ -1,0 +1,163 @@
+<?php
+$this->breadcrumbs=array(
+	'Frequency Applications'=>array('index'),
+	'Manage',
+);
+
+$this->menu=array(
+	array('label'=>'List FrequencyApplication', 'url'=>array('index')),
+	array('label'=>'Create FrequencyApplication', 'url'=>array('create')),
+);
+
+Yii::app()->clientScript->registerScript('search', "
+$('.search-button').click(function(){
+	$('.search-form').toggle();
+	return false;
+});
+$('.search-form form').submit(function(){
+	$.fn.yiiGridView.update('frequency-application-grid', {
+		data: $(this).serialize()
+	});
+	return false;
+});
+");
+?>
+
+
+<h1>View frequency applications</h1>
+
+<div class="search-form">
+<?php $this->renderPartial('_search',array(
+	'model'=>$model,
+)); ?>
+</div><!-- search-form -->
+
+<?php $this->widget('zii.widgets.grid.CGridView', array(
+	'id'=>'frequency-application-grid',
+	'dataProvider'=>$model->search(),
+	//'filter'=>$model,
+	'columns'=>array(
+		'id',
+		'applicant.name',
+		'frequencyType.name',
+		'application_date',
+		'declaration_date',
+		'declaration_signatory',
+		'declaration_designation',
+		
+		/*
+		'purpose',
+		'ship_owner',
+		'ship_name',
+		'ship_registration_number',
+		'ship_certificate_issued',
+		'ship_certificate_done',
+		'amateur_type_id',
+		'amateur_nationality',
+		'amateur_passport_number',
+		'amateur_date_birth',
+		'amateur_possess_licence',
+		'amateur_call_sign',
+		'amateur_issuing_authority',
+		'amateur_guardian_name',
+		'amateur_guardian_nationality',
+		'amateur_guardian_passport_number',
+		'amateur_guardian_town',
+		'amateur_guardian_street',
+		'amateur_guardian_address',
+		'amateur_referee_1_name',
+		'amateur_referee_1_address',
+		'amateur_referee_1_town',
+		'amateur_referee_1_telephone',
+		'amateur_referee_1_email',
+		'amateur_guardian_telephone',
+		'amateur_guardian_email',
+		'amateur_guardian_fax',
+		'amateur_referee_2_name',
+		'amateur_referee_2_address',
+		'amateur_referee_2_town',
+		'amateur_referee_2_telephone',
+		'amateur_referee_2_email',
+		'amateur_equipment_made',
+		'amateur_equipment_model',
+		'amateur_equipment_frequency_range',
+		'amateur_equipment_power',
+		'amateur_equipment_antenna_make',
+		'amateur_equipment_antenna_gain',
+		'amateur_pass_morse_test',
+		'amateur_guardian_sign_date',
+		'amateur_guardian_sign_name',
+		'aircraft_owner',
+		'aircraft_type',
+		'aircraft_registration_number',
+		'aircraft_certificate_issued',
+		'aircraft_inspection_done',
+		'link_type_licence',
+		'link_equipment_make',
+		'link_equipment_frequency_band',
+		'link_equipment_frequency_from',
+		'link_equipment_frequency_to',
+		'link_equipment_channel_capacity',
+		'link_equipment_modulation_scheme',
+		'link_equipment_frequency_stability',
+		'link_equipment_power',
+		'link_equipment_emission',
+		'link_equipment_receiver_sensitivity',
+		'link_equipment_adjacent_channel_selectivity',
+		'link_equipment_frequency_channels',
+		'link_equipment_channelization_plan',
+		'link_antenna_make',
+		'link_antenna_receiving_gain',
+		'link_supplier_name_address',
+		'link_supplier_postal_address',
+		'link_supplier_telephone',
+		'link_supplier_fax',
+		'link_supplier_email',
+		'link_supplier_physical_address',
+		'link_supplier_street',
+		'link_supplier_plot',
+		'link_channels',
+		'link_bandwidth',
+		'link_separation',
+		'link_transmission_capacity',
+		'link_channelization_plan',
+		'link_proposed_date',
+		'link_remarks',
+		'radio_equipment_make',
+		'radio_equipment_seller_name_address',
+		'radio_equipment_fixed_from',
+		'radio_equipment_fixed_to',
+		'radio_equipment_portable_from',
+		'radio_equipment_portable_to',
+		'radio_equipment_fixed_unit',
+		'radio_equipment_portable_unit',
+		'radio_equipment_fixed_channels',
+		'radio_equipment_portable_channels',
+		'radio_equipment_type_id',
+		'radio_transmitter_power_fixed',
+		'radio_transmitter_power_portable',
+		'radio_transmitter_stability_fixed',
+		'radio_transmitter_stability_portable',
+		'radio_transmitter_nominal_bandwidth_fixed',
+		'radio_transmitter_nominal_bandwidth_portable',
+		'radio_transmitter_modulation_fixed',
+		'radio_transmitter_modulation_portable',
+		'radio_transmitter_emission_fixed',
+		'radio_transmitter_emission_portable',
+		'radio_transmitter_harmonics_fixed',
+		'radio_transmitter_harmonics_portable',
+		'radio_receiver_sensitivity_fixed',
+		'radio_receiver_sensitivity_portable',
+		'radio_receiver_selectivity_fixed',
+		'radio_receiver_selectivity_portable',
+		'radio_receiver_intermediation_fixed',
+		'radio_receiver_intermediation_portable',
+		'radio_receiver_rejection_fixed',
+		'radio_receiver_rejection_portable',
+		*/
+		array(
+			'type'=>'raw',
+			'value'=>'CHtml::link(CHtml::encode("View"), $data->getViewUrl())'
+		),
+	),
+)); ?>

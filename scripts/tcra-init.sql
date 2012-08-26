@@ -1,0 +1,40 @@
+DELETE FROM active_record_log;
+DELETE FROM application_communication;
+DELETE FROM application_content;
+DELETE FROM application_courier;
+DELETE FROM application_importation;
+DELETE FROM application_installation;
+DELETE FROM complaint2type;
+DELETE FROM complaint;
+DELETE FROM complaint_party;
+DELETE FROM document;
+DELETE FROM email;
+DELETE FROM frequency;
+DELETE FROM frequency_link;
+DELETE FROM frequency_station;
+DELETE FROM invoice_detail;
+DELETE FROM invoice;
+DELETE FROM licence_application;
+DELETE FROM `log`;
+DELETE FROM log_team;
+DELETE FROM numbering_application;
+DELETE FROM numbering_resource;
+DELETE FROM officer;
+DELETE FROM receipt;
+DELETE FROM roll_out_plan;
+DELETE  FROM share_holder;
+DELETE FROM statistics_cable_tv_base;
+DELETE FROM statistics_cable_tv_main;
+DELETE FROM statistics_employment_base;
+DELETE FROM statistics_employment_main;
+DELETE FROM statistics_internet_base;
+DELETE FROM statistics_internet_main;
+DELETE FROM statistics_internet_tariff;
+DELETE FROM statistics_postal_base;
+DELETE FROM statistics_postal_main;
+DELETE FROM statistics_postal_masseges;
+DELETE FROM statistics_postal_traffic;
+DELETE FROM statistics_telecom_tariff;
+
+
+

@@ -1,0 +1,15 @@
+<?php
+$this->breadcrumbs=array(
+	'Frequency Application Links'=>array('index'),
+	'Create',
+);
+
+$this->menu=array(
+	array('label'=>'List FrequencyApplicationLink', 'url'=>array('index')),
+	array('label'=>'Manage FrequencyApplicationLink', 'url'=>array('admin')),
+);
+?>
+
+<h1>Frequency Application Link Assigment for&nbsp<?php echo $model->frequencyApplication->id;?></h1>
+
+<?php echo $this->renderPartial('_formTable', array('model'=>$model)); ?>

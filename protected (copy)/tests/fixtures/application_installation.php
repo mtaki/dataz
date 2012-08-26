@@ -1,0 +1,46 @@
+<?php
+
+return array(
+	/*
+	'sample1'=>array(
+		'id' => '',
+		'application_number' => '',
+		'type_make' => '',
+		'activities' => '',
+		'how_procure_equipment' => '',
+		'investiment_cost' => '',
+		'staff' => '',
+		'support_staff' => '',
+		'possess_office' => '',
+		'office_description' => '',
+		'possess_workshop' => '',
+		'workshop_description' => '',
+		'possess_vehicle' => '',
+		'vehicle_how_many' => '',
+		'other_transport' => '',
+		'test_gears' => '',
+		'source_spares' => '',
+		'previous_licence' => '',
+	),
+	'sample2'=>array(
+		'id' => '',
+		'application_number' => '',
+		'type_make' => '',
+		'activities' => '',
+		'how_procure_equipment' => '',
+		'investiment_cost' => '',
+		'staff' => '',
+		'support_staff' => '',
+		'possess_office' => '',
+		'office_description' => '',
+		'possess_workshop' => '',
+		'workshop_description' => '',
+		'possess_vehicle' => '',
+		'vehicle_how_many' => '',
+		'other_transport' => '',
+		'test_gears' => '',
+		'source_spares' => '',
+		'previous_licence' => '',
+	),
+	*/
+);

@@ -1,0 +1,48 @@
+<?php
+
+return array(
+	/*
+	'sample1'=>array(
+		'id' => '',
+		'ship_owner_address' => '',
+		'ship_name' => '',
+		'ship_type_id' => '',
+		'ship_registration_number' => '',
+		'station_radio' => '',
+		'station_model' => '',
+		'station_output' => '',
+		'emargency_radio' => '',
+		'emargency_model' => '',
+		'emargency_output' => '',
+		'craft_radio' => '',
+		'craft_model' => '',
+		'craft_output' => '',
+		'other_radio' => '',
+		'other_model' => '',
+		'other_output' => '',
+		'seaworthiness' => '',
+		'ship_inspection' => '',
+	),
+	'sample2'=>array(
+		'id' => '',
+		'ship_owner_address' => '',
+		'ship_name' => '',
+		'ship_type_id' => '',
+		'ship_registration_number' => '',
+		'station_radio' => '',
+		'station_model' => '',
+		'station_output' => '',
+		'emargency_radio' => '',
+		'emargency_model' => '',
+		'emargency_output' => '',
+		'craft_radio' => '',
+		'craft_model' => '',
+		'craft_output' => '',
+		'other_radio' => '',
+		'other_model' => '',
+		'other_output' => '',
+		'seaworthiness' => '',
+		'ship_inspection' => '',
+	),
+	*/
+);

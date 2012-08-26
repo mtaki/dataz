@@ -1,0 +1,25 @@
+TCRA MIS
+Instructions
+1. Copy files to web root
+
+
+Epicor Setup
+1.Install SQL Server 2000 (port 1433)
+	create dbs TCRAControl and TCRAData
+	create alias localhost in SQL server Client Network utility (name: localhost, network libriaries: TCP/IP)
+2.Install Epicor Server
+3.Install Epicor Cliet
+4.Database update Wizard (use sql server authentication,setup demo system)
+	open - Accounts Receivable > processing > Invoices > Invoice Entry
+	select register -> enter site id = 640 -> you will get 5 user temp licence for 90 days(save)
+5.Restore DBs(TCRAControl and TCRAData)
+	Select options and force overwrite
+6.Setup rates
+	open - MultiCurrency > processing > Exchanges Rates
+7.Setup period
+	open - Accounts Receivable > processing > change period
+8. Install dot net framework from Epicor735sp1
+9. Install crystal reports runtime from Epicor735sp1
+	
+
+
