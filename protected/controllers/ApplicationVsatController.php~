@@ -66,24 +66,27 @@ class ApplicationVsatController extends Controller
 	public function actionCreate()
 	{
 		$model=new ApplicationVsat;
+        $a=new LicenceApplication;
         $oparationAddress=new VsatOperationAddress;
         $billingAddress=new VsatBillingAddress;
         $siteData=new VsatSiteData;
         //$transmitterData=new VsatTransmitterEquipment;
         $antennaData=new VsatAntennaData;
         $frequencyData=new  VsatFrequencyData;
+        $c=new Receipt;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['ApplicationVsat'],$_POST['VsatOperationAddress'],$_POST['VsatBillingAddress'],
-        $_POST['VsatSiteData'],$_POST['VsatAntennaData'],$_POST['VsatFrequencyData']))
+		/*if(isset($_POST['LicenceApplication'],$_POST['Receipt'],$_POST['ApplicationVsat'],$_POST['VsatOperationAddress'],$_POST['VsatBillingAddress'],
+        $_POST['VsatSiteData'],$_POST['VsatAntennaData'],$_POST['VsatFrequencyData']))*/
+        if(isset($_POST['ApplicationVsat']))
 		{
 			$model->attributes=$_POST['ApplicationVsat'];
 			$oparationAddress->attributes=$_POST['VsatOperationAddress'];
 			$billingAddress->attributes=$_POST['VsatBillingAddress'];
 			$siteData->attributes=$_POST['VsatSiteData'];
-			$antennaData->attributes=$_POST['VsatAntennaData'];
+			//$antennaData->attributes=$_POST['VsatAntennaData'];
 			$frequencyData->attributes=$_POST['VsatFrequencyData'];
 			if($model->save()){
                $oparationAddress->application_vsat_id=$model->id;
@@ -105,6 +108,8 @@ class ApplicationVsatController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
+            'a'=>$a,
+            'c'=>$c,
             'oparationAddress'=>$oparationAddress,
             'billingAddress'=>$billingAddress,
             'siteData'=>$siteData,

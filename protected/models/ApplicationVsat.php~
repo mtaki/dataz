@@ -43,7 +43,7 @@ class ApplicationVsat extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			//array('id', 'required'),
+			array('id', 'required'),
 			array('id', 'length', 'max'=>20),
 			array('file_number', 'length', 'max'=>30),
 			array('classification, status_1, status_2, status_3, status_4', 'length', 'max'=>50),

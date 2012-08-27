@@ -12,7 +12,7 @@ $this->menu=array(
 
 <h1>Create ApplicationVsat</h1>
 
-<?php echo $this->renderPartial('_form', array('model'=>$model, 
+<?php echo $this->renderPartial('_form', array('model'=>$model,'a'=>$a,'c'=>$c, 
             'oparationAddress'=>$oparationAddress,
             'billingAddress'=>$billingAddress,
             'siteData'=>$siteData,

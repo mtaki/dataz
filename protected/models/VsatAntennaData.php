@@ -69,7 +69,7 @@ class VsatAntennaData extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'TCRAID' => 'Tcraid',
+			'TCRAID' => 'TCRAID',
 			'manufacture_name' => 'Manufacture Name',
 			'model' => 'Model',
 			'height_above_ground' => 'Height Above Ground',

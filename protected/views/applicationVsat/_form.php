@@ -5,14 +5,82 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+<?php echo $form->errorSummary($model); ?>
+    <?php
+	echo $form->hiddenField($a,'licence_category_id',array('size'=>15,'maxlength'=>50,'value'=>$a->licence_category_id));
+		
+?>
 
-  <p><?php echo $form->errorSummary($model); ?>  </p>
-  <div class="row">
-		<?php echo $form->labelEx($model,'application_type_id'); ?>
-		<?php echo $form->textField($model,'application_type_id',array('size'=>20,'maxlength'=>20)); ?>
-		<?php echo $form->error($model,'application_type_id'); ?>
-	</div>
+ <fieldset>
+ <legend><strong>A:Applicant Information</strong></legend> 
+ <table width="200" border="0">
+    <tr>
+      <td>Applicant:</td>
+      <td><?php 
+echo $form->hiddenField($a,'operator_id');
+$this->widget('CAutoComplete',
+          array(
+                         //name of the html field that will be generated
+             'name'=>'operator_name', 
+                         //replace controller/action with real ids
+             'url'=>array('operator/autoCompleteLookup'), 
+             'max'=>10, //specifies the max number of items to display
+ 
+                         //specifies the number of chars that must be entered 
+                         //before autocomplete initiates a lookup
+             'minChars'=>2, 
+             'delay'=>500, //number of milliseconds before lookup occurs
+             'matchCase'=>false, //match case when performing a lookup?
+ 
+                         //any additional html attributes that go inside of 
+                         //the input field can be defined here
+             'htmlOptions'=>array('size'=>'15'), 
+ 			 'value'=>(empty($a->operator_id))?'':$a->operator->name,
+             'methodChain'=>".result(function(event,item){\$(\"#LicenceApplication_operator_id\").val(item[1]);})",
+             ));
+    ?></td>
+      <td><input name="button" type="button" onclick="openOperator();" value='Update Applicant ' /></td>
+      <td>ApplicationDate:</td>
+      <td><?php $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+        'name'=>'LicenceApplication[application_date]',
+        'value'=>$a->application_date,
+        'options'=>array(
+                'dateFormat'=>Yii::app()->params->datePickerFormat,
+                'showAnim'=>'slideDown',
+                'showButtonPanel'=>'true',
+                'constrainInput'=>'false',
+                'htmlOptions'=>array('style'=>'width:100px'),
+                ))
+        );
+?></td>
+    </tr>
+    <tr>
+      <td><?php echo $form->labelEx($model,'application_type_id'); ?></td>
+      <td><?php echo $form->dropdownList($model,'application_type_id',Chtml::listData(ApplicationType::model()->findAll(),'id','type_name'),array('style'=>'width:150px','empty'=>'Select type')); ?> <?php echo $form->error($model,'application_type_id'); ?></td>
+      <td>Receipt Number</td>
+      <td><?php echo $form->textField($c,'num',array('size'=>15,'maxlength'=>50)); ?></td>
+      <td>&nbsp;</td>
+    </tr>
+  </table></fieldset>
+  <tr>
+<td  valign='top'><script type="text/javascript">
+
+function openOperator() {
+var url='';
+url='<?php echo Yii::app()->createUrl('operator/edit'); ?>';
+if(document.getElementById("LicenceApplication_operator_id").value != ''){
+	url=url+'/id/'+document.getElementById('LicenceApplication_operator_id').value;
+	aWindow = window.open(url,
+	       'thewindow','width=800,height=500,location=no,resizable=yes,scrollbars=yes,screenX=20,screenY=20,top=20,left=20');
+	}
+}
+</script></td>
+<td  valign='top'></td>
+</tr>
+<tr><td>&nbsp;</td>
+	<td>&nbsp;</td>
+</tr>
+ 
 	<table width="200" border="0">
       <tr>
         <td><table width="200" border="0">
@@ -25,7 +93,9 @@
         </table></td>
       </tr>
       <tr>
-        <td><fieldset><legend><strong>Test</strong></legend><table width="283" border="0">
+        <td><fieldset>
+        <legend><strong>General info </strong></legend>
+        <table width="283" border="0">
             <tr>
               <td ><span class="row"><?php echo $form->labelEx($model,'status_1'); ?></span></td>
               <td ><span class="row"><?php echo $form->textField($model,'status_1',array('size'=>15,'maxlength'=>50)); ?> <?php echo $form->error($model,'status_1'); ?> </span></td>
@@ -71,7 +141,7 @@
         </table></fieldset></td>
       </tr>
       <tr>
-        <td><fieldset><legend><strong></strong></legend><table width="200" border="0">
+        <td><fieldset><legend><strong>C:Billing Address (if other than 1)</strong></legend><table width="200" border="0">
             <tr>
               <td><span class="row"><?php echo $form->labelEx($billingAddress,'name_of_accounting'); ?></span></td>
               <td><span class="row"><?php echo $form->textField($billingAddress,'name_of_accounting',array('size'=>20,'maxlength'=>100)); ?> <?php echo $form->error($model,'name_of_accounting'); ?> </span></td>
@@ -92,7 +162,7 @@
         </fieldset></td>
       </tr>
       <tr>
-        <td><fieldset><legend><strong>siteData</strong></legend><table width="200" border="0">
+        <td><fieldset><legend><strong>Site Data (Location of the Earth Satelite)</strong></legend><table width="200" border="0">
             <tr>
               <td><span class="row"><?php echo $form->labelEx($siteData,'site_number'); ?></span></td>
               <td><span class="row"><?php echo $form->textField($siteData,'site_number',array('size'=>20,'maxlength'=>20)); ?> <?php echo $form->error($siteData,'site_number'); ?> </span></td>
@@ -154,7 +224,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><fieldset><legend><strong></strong></legend><table width="200" border="0">
+        <td><fieldset><legend><strong>Frequency Data</strong></legend><table width="200" border="0">
             <tr>
               <td width="18"><span class="row"><?php echo $form->labelEx($frequencyData,'frequency_band'); ?></span></td>
               <td width="35"><span class="row"><?php echo $form->textField($frequencyData,'frequency_band',array('size'=>20,'maxlength'=>20)); ?> <?php echo $form->error($frequencyData,'frequency_band'); ?></span></td>
@@ -172,7 +242,23 @@
         </table></fieldset></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
+        <td><fieldset><legend><strong>Client Declaration
+</strong></legend><table width='500'>
+<tr><td>Name:</td><td><?php echo $form->textField($a,'signatory_name',array('size'=>15,'maxlength'=>50)); ?></td><td>Declare&nbsp;and&nbsp;Signed</td><td><?php //echo $form->radioButtonList($b,'declared_signed',array('1'=>'Yes','2'=>'No'),array('separator'=>'&nbsp;'));?></td></tr>
+
+<tr><td>Position:</td><td><?php echo $form->textField($a,'signatory_title',array('size'=>15,'maxlength'=>50)); ?></td><td>Date</td><td>
+<?php $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+        'name'=>'LicenceApplication[sign_date]',
+        'value'=>$a->sign_date,
+        'options'=>array(
+                'dateFormat'=>Yii::app()->params->datePickerFormat,
+                'showAnim'=>'slideDown',
+                'showButtonPanel'=>'true',
+                'constrainInput'=>'false',
+                ))
+        );
+?></td></tr>
+</table></fieldset></td>
       </tr>
   </table>
 	<div class="row buttons">
