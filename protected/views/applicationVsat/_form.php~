@@ -167,67 +167,7 @@
         </table></fieldset></td>
       </tr>
       <tr>
-        <td><div class="row">
-		<?php 
-		  $transmitterData=new VsatTransmitterEquipment;
-		echo $form->labelEx($transmitterData,'TCRAID'); ?>
-		<?php echo $form->textField($transmitterData,'TCRAID',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($transmitterData,'TCRAID'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($transmitterData,'type_approval_number'); ?>
-		<?php echo $form->textField($transmitterData,'type_approval_number',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($transmitterData,'type_approval_number'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($transmitterData,'manufacture_name'); ?>
-		<?php echo $form->textField($transmitterData,'manufacture_name',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($transmitterData,'manufacture_name'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($transmitterData,'transmitterData'); ?>
-		<?php echo $form->textField($transmitterData,'transmitterData',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($transmitterData,'transmitterData'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($transmitterData,'serial_number'); ?>
-		<?php echo $form->textField($transmitterData,'serial_number',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($transmitterData,'serial_number'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($transmitterData,'transmitter_power'); ?>
-		<?php echo $form->textField($transmitterData,'transmitter_power',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($transmitterData,'transmitter_power'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($transmitterData,'effective_radiated_power'); ?>
-		<?php echo $form->textField($transmitterData,'effective_radiated_power',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($transmitterData,'effective_radiated_power'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($transmitterData,'equipment_manual_attached'); ?>
-		<?php echo $form->textField($transmitterData,'equipment_manual_attached',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($transmitterData,'equipment_manual_attached'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($transmitterData,'station_class'); ?>
-		<?php echo $form->textField($transmitterData,'station_class',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($transmitterData,'station_class'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($transmitterData,'remark'); ?>
-		<?php echo $form->textField($transmitterData,'remark',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($transmitterData,'remark'); ?>
-	</div></td>
+        <td>&nbsp;</td>
       </tr>
   </table>
 	<div class="row buttons">

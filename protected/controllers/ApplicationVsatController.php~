@@ -90,11 +90,14 @@ class ApplicationVsatController extends Controller
                $oparationAddress->save();
                $billingAddress->application_vsat_id=$model->id;
                $billingAddress->save();
+               $siteData->application_vsat_id=$model->id;
+
                $siteData->save();
-               $siteData->save();
+               $antennaData->application_vsat_id=$model->id;
+
                $antennaData->save();
-               $antennaData->save();
-               $frequencyData->save();
+               $frequencyData->application_vsat_id=$model->id;
+
                $frequencyData->save();
 				$this->redirect(array('view','id'=>$model->id));
                 }
@@ -105,7 +108,7 @@ class ApplicationVsatController extends Controller
             'oparationAddress'=>$oparationAddress,
             'billingAddress'=>$billingAddress,
             'siteData'=>$siteData,
-            'transmitterData'=>$transmitterData,
+          //  'transmitterData'=>$transmitterData,
             'antennaData'=>$antennaData,
             'frequencyData'=>$frequencyData,
         

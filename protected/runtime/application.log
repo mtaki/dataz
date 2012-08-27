@@ -10662,3 +10662,367 @@ in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (9
 2012/08/27 09:15:04 [trace] [system.CModule] Loading "clientScript" application component
 in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (96)
 in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.web.filters.CFilterChain] Running filter ApplicationVsatController.filteraccessControl()
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/dvi/tcra_mick/protected/views/site/login.php (4)
+in /var/www/dvi/tcra_mick/protected/controllers/SiteController.php (98)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/dvi/tcra_mick/protected/views/site/login.php (26)
+in /var/www/dvi/tcra_mick/protected/controllers/SiteController.php (98)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:16 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/dvi/tcra_mick/protected/controllers/SiteController.php (98)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:32 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:32 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:32 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:32 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/dvi/tcra_mick/protected/controllers/SiteController.php (85)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "db" application component
+in /var/www/dvi/tcra_mick/protected/models/User.php (22)
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+2012/08/27 11:50:34 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/dvi/tcra_mick/protected/models/User.php (22)
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in /var/www/dvi/tcra_mick/protected/models/User.php (22)
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in /var/www/dvi/tcra_mick/protected/models/User.php (22)
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+2012/08/27 11:50:34 [trace] [system.db.ar.CActiveRecord] User.find()
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+in /var/www/dvi/tcra_mick/protected/controllers/SiteController.php (85)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE username=? LIMIT 1
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+in /var/www/dvi/tcra_mick/protected/controllers/SiteController.php (85)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "db" application component
+in /var/www/dvi/tcra_mick/protected/models/User.php (22)
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+2012/08/27 11:50:34 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/dvi/tcra_mick/protected/models/User.php (22)
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in /var/www/dvi/tcra_mick/protected/models/User.php (22)
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in /var/www/dvi/tcra_mick/protected/models/User.php (22)
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+2012/08/27 11:50:34 [trace] [system.db.ar.CActiveRecord] User.find()
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+in /var/www/dvi/tcra_mick/protected/controllers/SiteController.php (94)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE username=? LIMIT 1
+in /var/www/dvi/tcra_mick/protected/components/UserIdentity.php (20)
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (50)
+in /var/www/dvi/tcra_mick/protected/controllers/SiteController.php (94)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (68)
+in /var/www/dvi/tcra_mick/protected/controllers/SiteController.php (94)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra_mick/protected/models/LoginForm.php (68)
+in /var/www/dvi/tcra_mick/protected/controllers/SiteController.php (94)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.web.filters.CFilterChain] Running filter ApplicationVsatController.filteraccessControl()
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.CModule] Loading "db" application component
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `application_vsat`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `application_vsat`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_operation_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (69)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_operation_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (69)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_billing_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (70)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_billing_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (70)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_site_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (71)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_site_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (71)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_antenna_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (73)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_antenna_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (73)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_frequency_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (74)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_frequency_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (74)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:35 [error] [php] Undefined variable: transmitterData (/var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php:108)
+Stack trace:
+#0 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(129): ApplicationVsatController->runAction()
+#1 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(1049): CAccessControlFilter->filter()
+#3 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CInlineFilter.php(59): ApplicationVsatController->filterAccessControl()
+#4 /var/www/dvi/tcra_mick/yii-1.1.3/web/filters/CFilterChain.php(126): CInlineFilter->filter()
+#5 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(283): CFilterChain->run()
+#6 /var/www/dvi/tcra_mick/yii-1.1.3/web/CController.php(257): ApplicationVsatController->runActionWithFilters()
+#7 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(324): ApplicationVsatController->run()
+#8 /var/www/dvi/tcra_mick/yii-1.1.3/web/CWebApplication.php(121): CWebApplication->runController()
+#9 /var/www/dvi/tcra_mick/yii-1.1.3/base/CApplication.php(135): CWebApplication->processRequest()
+#10 /var/www/dvi/tcra_mick/index.php(13): CWebApplication->run()
+REQUEST_URI=/dvi/tcra_mick/index.php/applicationVsat/create
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (108)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:50:35 [trace] [system.CModule] Loading "errorHandler" application component
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (108)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.web.filters.CFilterChain] Running filter ApplicationVsatController.filteraccessControl()
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.CModule] Loading "db" application component
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `application_vsat`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `application_vsat`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_operation_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (69)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_operation_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (69)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_billing_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (70)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_billing_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (70)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_site_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (71)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_site_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (71)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_antenna_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (73)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_antenna_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (73)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_frequency_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (74)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_frequency_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (74)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:52:11 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/dvi/tcra_mick/protected/views/applicationVsat/_form.php (6)
+in /var/www/dvi/tcra_mick/protected/views/applicationVsat/create.php (21)
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (113)
+2012/08/27 11:52:11 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (113)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.web.filters.CFilterChain] Running filter ApplicationVsatController.filteraccessControl()
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.CModule] Loading "db" application component
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `application_vsat`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `application_vsat`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_operation_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (69)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_operation_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (69)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_billing_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (70)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_billing_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (70)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_site_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (71)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_site_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (71)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_antenna_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (73)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_antenna_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (73)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_frequency_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (74)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_frequency_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (74)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:54:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/dvi/tcra_mick/protected/views/applicationVsat/_form.php (6)
+in /var/www/dvi/tcra_mick/protected/views/applicationVsat/create.php (21)
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (116)
+2012/08/27 11:54:58 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (116)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.CModule] Loading "log" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.CModule] Loading "request" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.web.filters.CFilterChain] Running filter ApplicationVsatController.filteraccessControl()
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.CModule] Loading "user" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.CModule] Loading "session" application component
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.CModule] Loading "db" application component
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `application_vsat`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `application_vsat`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (68)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_operation_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (69)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_operation_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (69)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_billing_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (70)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_billing_address`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (70)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_site_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (71)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_site_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (71)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_antenna_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (73)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_antenna_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (73)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `vsat_frequency_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (74)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vsat_frequency_data`
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (74)
+in /var/www/dvi/tcra_mick/index.php (13)
+2012/08/27 11:59:59 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/dvi/tcra_mick/protected/views/applicationVsat/_form.php (6)
+in /var/www/dvi/tcra_mick/protected/views/applicationVsat/create.php (21)
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (116)
+2012/08/27 11:59:59 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/dvi/tcra_mick/protected/controllers/ApplicationVsatController.php (116)
+in /var/www/dvi/tcra_mick/index.php (13)
