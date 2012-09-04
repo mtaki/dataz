@@ -117,6 +117,7 @@ class LicenceApplicationController extends Controller
 	{
 		$this->render('licence/annualFeeView',array(
 			'model'=>$this->loadModel(),
+            
 		));
 	}
 	public function actionCancelView()

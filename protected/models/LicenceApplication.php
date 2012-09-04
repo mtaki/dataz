@@ -40,6 +40,8 @@ class LicenceApplication extends CActiveRecord
 	 * @return LicenceApplication the static model class
 	 */
      public $app_status;
+     public $annual_fees;
+     
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
@@ -246,7 +248,25 @@ class LicenceApplication extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
-	
+	public function annualFee(){
+     
+    $licence_application=LicenceApplication::model()->with(array('operator','licenceCategory'))->findAll(array('condition'=>'licence_category_id='.$this->licence_category_id));
+    $count=0;
+        foreach($licence_application as $key=>$result){
+        $count++;
+        }
+        if($this->licence_category_id==1){
+            $annual_fees=0.8/100*1000000/$count;
+        //$annual_fees=200000;
+       // return $annual_fees;
+        }
+        else{
+            $annual_fees=111;
+            }
+       
+        return $annual_fees;
+        }
+        
 	public function getViewUrl(){
 		$action='';
 		if(Yii::app()->controller->action->id=='editList' || Yii::app()->controller->action->id=='view')

@@ -47,6 +47,7 @@ if (Yii::app()->controller->action->id=='annualFeeList'){
 			'value'=>'$data->getMarketSegments()',
 		),
 		'issue_date','duration:raw:Duration in years',
+		array('type'=>'raw','header'=>'Annual fee','value'=>'$data->annualFee()'),
 		array(
 			'type'=>'raw',
 			'value'=>'CHtml::link(CHtml::encode("View"), $data->getViewUrl())'

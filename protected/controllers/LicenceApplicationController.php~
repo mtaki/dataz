@@ -2136,7 +2136,7 @@ public function actionNewSelling()
 		if(isset($_POST['LicenceApplication']) && isset($_POST['select2']))
 		{
 			$model->attributes=$_POST['LicenceApplication'];
-			if($_POST['LicenceApplicatio']['app_status']=='Not available')
+			if($_POST['LicenceApplication']['app_status']=='Not available')
                 $status='Pending for resources';
             else
                 $status='Pre-Evaluated';

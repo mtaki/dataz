@@ -186,37 +186,14 @@ class FrequencyApplication extends CActiveRecord
     public function getViewUrl(){
 		$action='';
 		if(Yii::app()->controller->action->id=='editList')
-<<<<<<< HEAD
 			$action= 'edit';
-=======
-			$action= 'update';
->>>>>>> a1c5e6103c0b63b877998875ffb36672f5ea53a6
 		elseif(Yii::app()->controller->action->id=='evaluationList')
 			$action= 'evaluation';
 		elseif(Yii::app()->controller->action->id=='approvalList')
 			$action= 'approval';
 		elseif(Yii::app()->controller->action->id=='assignmentList'){
-<<<<<<< HEAD
            $action= 'assignment';
             
-=======
-           
-            if($this->frequency_application_type_id==1){
-             $action= 'assignment1'; // Amature Radion station assignment
-             }
-             elseif($this->frequency_application_type_id==2){
-             $action= 'assignment1'; //Ship Radion station assignment
-             }
-             elseif($this->frequency_application_type_id==3){
-             $action= 'assignment3'; //Air craft  station assignment
-             }
-             elseif($this->frequency_application_type_id==4){
-             $action= 'assignment4'; //Radio communication station assignment
-             }
-             else{
-                   $action= 'assignment'; //Transimission Link station assignment
-                 }
->>>>>>> a1c5e6103c0b63b877998875ffb36672f5ea53a6
             }
             
 		elseif(Yii::app()->controller->action->id=='prepareList')
@@ -665,11 +642,7 @@ class FrequencyApplication extends CActiveRecord
 
 		$criteria->compare('radio_hours_to',$this->radio_hours_to);
         if (Yii::app()->controller->action->id=='editList'){
-<<<<<<< HEAD
 			$criteria->addCondition("status='Received'", 'AND');
-=======
-			$criteria->addCondition("status='Received' OR status='Returned' OR status='Evaluated'", 'AND');
->>>>>>> a1c5e6103c0b63b877998875ffb36672f5ea53a6
 		}
 		elseif (Yii::app()->controller->action->id=='evaluationList'){
 			$criteria->addCondition("status='Received' OR status='Returned'", 'AND');

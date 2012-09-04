@@ -13,7 +13,7 @@ echo $html;
 ?>
 <?php $this->endWidget(); ?>
 <?php $this->beginWidget('system.web.widgets.CClipWidget', array('id'=>'Payments')); ?>
-	<?php $this->renderPartial('//site/payment', array('entityType'=>'licence_application','entityId'=>$model->id,'invoiceType'=>''))?>
+	<?php $this->renderPartial('//site/annual_payment', array('entityType'=>'licence_application','entityId'=>$model->id,'invoiceType'=>''))?>
 <?php $this->endWidget(); ?>
 
 <h1>Genarate Annual Fee </h1>

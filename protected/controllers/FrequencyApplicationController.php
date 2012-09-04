@@ -126,7 +126,7 @@ class FrequencyApplicationController extends Controller
 						$invoice->operator_id=$model->operator_id;
 						$invoice->day=$date;
 						$invoice->currency_id=$currency->id;
-						$invoice->description='Frequency Application Fee';						
+					     $invoice->description='Frequency Application Fee';						
 						$invoice->type='Frequency Application Fee';
 						$invoice->in_epicor='yes';
 						$invoice->amount=$c->amount_paid;
